@@ -2,7 +2,6 @@ The Steps in this project will be summarized because there are the same as earli
 - Linear  Data Pipeline with Airflow orchestration
 ![636e2e99d3a9546506082364_Data Pipeline Components](https://github.com/Ackson507/Web-Scraping-Data-Pipeline/assets/84422970/64ba5334-dac7-4b85-8ba9-b0d9d7ee1805)
 
-T
 ### Objective
 Building a data pipeline from multiple sources into Postgres Database for storage purposes.
 
