@@ -8,15 +8,18 @@ Building a data pipeline from multiple sources into Postgres Database for storag
 ### Identify Data Sources
 Recognizing your data sources is a crucial step in building a data pipeline. Data sources for this project will include;
 use include  be broadly divided into six categories:
-- Databases:  PostgreSQL will need some data from certain database.
-- File Sources: CSV files.
-- APIs (Application Programming Interfaces): Data can be extracted from APIs that provide a direct connection to various web services and external platforms.”
+- Source 1: Databases which is PostgreSQL will need some data from certain database.
+- Sources 2: CSV files.
+- Source 3: APIs (Application Programming Interfaces): Data can be extracted from APIs that provide a direct connection to various web services and external platforms.”
+
+![Batch-processing-pipeline](https://github.com/Ackson507/Multiple-source-Data-Pipeline-with-Airflow-orchestration-/assets/84422970/8cb07e11-560a-4a2c-ba54-40a09484e267)
+
 
 ### Determine the Data Ingestion Strategy
-- Batch Ingestion will be used as data will be collected over a specific period such as once in a month and processing it as a group. 
+- Batch Ingestion will be used as data will be collected over a specific period such as once in a week or month and processing it as a group. 
 
 ### Design the Data Processing Plan.
-The plan to be used here is ETL  where will extract data from the source then clean, transform it, and then load it into the destination. 
+The plan to be used here is ETL where will extract data from the source then clean, transform it, and then load it into the destination. 
 
 ### Decide Where to Store the Information
 Our destination storage is database system PostgresSQL stored in a clean and structured format
